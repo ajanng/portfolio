@@ -1,0 +1,32 @@
+import React from 'react'
+import HeaderMenu from '../components/Dsys/HeaderMenu'
+import Section1 from '../components/Dsys/Section1'
+import Section2 from '../components/Dsys/Section2'
+
+import styles from '../styles/AboutPortfolio.scss'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+
+const AboutPortfolio = () => {
+    return (
+        <div>
+       
+
+            <HeaderMenu />
+           
+            <Section1 
+            pic='../../../src/assets/img/portfolio1.jpg'
+            num="02" 
+            title="Universe portfolio" 
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum et odio non tortor purus sed sit. Tincidunt egestas odio nunc, cras.tortor purus sed sit. Tincidunt egestas odio nunc, cras."/>
+            
+            <Section2 
+            pic1='../../../src/assets/img/photocv.jpg'
+            pic2='../../../src/assets/img/photocv.jpg'
+            quote1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum et odio non tortor purus sed sit. Tincidunt egestas odio nunc, cras.tortor purus sed sit. Tincidunt egestas odio nunc, cras."
+            quote2="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum et odio non tortor purus sed sit. Tincidunt egestas odio nunc, cras.tortor purus sed sit. Tincidunt egestas odio nunc, cras."/> 
+            
+        </div>
+    )
+}
+
+export default AboutPortfolio

@@ -1,0 +1,282 @@
+$font_route_a: '../../../src/assets/fonts/moderat';
+
+//
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('#{$font_route_a}/Roboto-Bold.woff2') format('woff2'),
+        url('#{$font_route_a}/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold-Italic.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold-Italic.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Black.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Black.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light-Italic.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light-Italic.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light-Italic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold-Italic_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold-Italic_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold-Italic_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Black_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Black_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Black_1.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Black_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Black_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Black_2.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold-Italic_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold-Italic_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold-Italic_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light-Italic_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light-Italic_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light-Italic_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Light-Italic_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Light-Italic_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Light-Italic_2.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Bold_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Bold_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Bold_2.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Regular.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Regular.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium-Italic.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium-Italic.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium-Italic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Thin.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Thin.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Regular_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Regular_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium-Italic_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium-Italic_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium-Italic_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Thin_1.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Thin_1.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Thin_1.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Regular_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Regular_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Regular_2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Thin_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Thin_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Thin_2.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('#{$font_route_a}/Moderat-Medium-Italic_2.woff2') format('woff2'),
+        url('#{$font_route_a}/Moderat-Medium-Italic_2.woff') format('woff'),
+        url('#{$font_route_a}/Moderat-Medium-Italic_2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

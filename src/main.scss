@@ -1,0 +1,17 @@
+@import "../src/assets/scss/fontface";
+
+//@import "./assets/scss/fonts/reboot";
+
+* {
+    //border: 1px solid pink;
+}
+
+
+html, 
+body {
+    font-family: 'Moderat', sans-serif;
+    margin: 0;
+    width: auto;
+    height: 100vh;
+    
+}

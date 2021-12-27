@@ -1,0 +1,81 @@
+.parallax_layer4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    .pic1{
+        grid-area: 1 / 1 / span 1 /span 6;
+        width: 100%;
+        margin-top: 3rem;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+    .pic2{
+        grid-area: 2 / 2 / span 1 /span 4;
+        margin-top: 3rem;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .pic3{
+        grid-area: 3 / 2 / span 1 /span 4;
+        margin-top: 3rem;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .route{
+        grid-area: 4 / 2 / span 1 /span 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        button.white{
+            margin-left: 1rem;
+        }
+
+    }
+}
+
+$breakpoint-tablet: 1024px;
+@media (max-width: $breakpoint-tablet) {
+    .parallax_layer4{
+        .pic1{
+            margin-top: 1rem; 
+        }
+        .pic2{
+            margin-top: 1rem; 
+        }
+        .pic3{
+            margin-top: 1rem; 
+        }
+        .route{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            
+        }
+    }
+}
+
+$breakpoint-phone: 1024px;
+@media (max-width: $breakpoint-phone) {
+    .parallax_layer4{
+        .pic1{
+            margin-top: 1rem; 
+        }
+        .pic2{
+            margin-top: 0; 
+        }
+        .pic3{
+            margin-top: 0; 
+        }
+    }
+}
